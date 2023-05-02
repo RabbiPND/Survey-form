@@ -1,0 +1,85 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-image: url(tigs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-weight: bold;}
+
+#title,#description { 
+    margin: 1em auto;
+    text-align: center;
+    color: rgb(188, 18, 18);
+    font-weight: bold;}
+
+#survey-form{ 
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: rgba(163, 53, 53, 0.7);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;}
+
+#pick{
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    padding: 1rem 0;
+    border-bottom: 3px solid #3b3b4f;
+    height: 100%;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 0.25rem}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+    border-radius: 0.25rem;}
+
+fieldset label input{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 0.25rem}
+
+fieldset div label input{
+    width: 5%;
+    min-height: 1em;}
+
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 0.25rem}
+
+textarea{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem}
+
+input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: gray;
+    border-color: white;
+    min-width: 300px;
+    border-radius: 0.25rem}
+
+input[type="file"] {
+    padding: 1px 2px;
+    text-align:center;
+    border-radius: 0.25rem;}
