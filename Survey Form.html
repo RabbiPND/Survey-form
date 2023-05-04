@@ -11,18 +11,19 @@
 
 <body>
   <h1 id="title">FOR ALL THE SHINOBIS</h1> 
+ 
   <p id="description">Thank you for taking the time to share your ninja way</p>
   <form id="survey-form">
 
-    <fieldset id="pick">
-      <label>
-        Pick One?
-        <div><label><input type="checkbox" value="eyes">Sharingan</label></div>
-        <div><label><input type="checkbox" value="eyes">Rinnegan</label></div>
+    
+      <label id="Pick">
+        <h2>Pick One?</h2>
+        
+          <div><label><input type="radio" name="radio" value="radio">Sharingan</label></div>
+          <div><label><input type="radio" name="radio" value="radio">Rinnegan</label></div>
+  
       </label>
-    </fieldset>
 
-    <fieldset>
         <label id="name-label">
           Enter your name: <input id="name" name="name" type="text" placeholder="Enter your name" required>
         </label> 
@@ -38,18 +39,14 @@
         <label>
           Enter your favourite village: <input id="village" name="village" type="text" placeholder="Enter your favourite village" required>
         </label>
-    </fieldset>
 
-    <fieldset>
       <label>
           Would you recommand Naruto to a friend?
         <div><label><input type="radio" name="radio" value="radio" checked>Yes</label></div> 
         <div><label><input type="radio" name="radio" value="radio">No</label></div>
         <div><label><input type="radio" name="radio" value="radio">Maybe</label></div>
        </label>
-    </fieldset>
 
-    <fieldset>
       <label>
           Which is your favourite ninja technique?
           <select>
@@ -188,9 +185,8 @@
             <option value="7">Fugaku Uchiha</option>
           </select>
         </label>
-    </fieldset>
 
-    <fieldset>
+
       <label>Any comments or suggestions on the surey?
         <textarea name="bio" rows="3" cols="30" placeholder="Enter your Comment here...">
         </textarea>
@@ -204,9 +200,9 @@
       <label>
         <input type="submit" id="Submit" value="Submit" />
       </label>
-        
-</fieldset>
 
-  </form> 
+  </form>
+  
+  
 </body>
 </html>

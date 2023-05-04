@@ -20,41 +20,42 @@ body{
 
 #survey-form{ 
     width: 60vw;
+    border-radius: 30px;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
-    background-color: rgba(163, 53, 53, 0.7);
+    background-color: rgba(163, 53, 53, 0.921);
     padding: 2.5rem 0.625rem;
-    border-radius: 0.25rem;}
-
-#pick{
-    text-align: center;
 }
 
-fieldset {
-    border: none;
-    padding: 1rem 0;
-    border-bottom: 3px solid #3b3b4f;
-    height: 100%;
-    margin: 10px 0 0 0;
-    width: 100%;
-    min-height: 2em;
-    border-radius: 0.25rem}
+#Pick{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
 
 label{
     display: block;
-    margin: 0.5rem 0;
-    border-radius: 0.25rem;}
+    margin: 20px 0;
+}
 
-fieldset label input{
+#name,
+#last-name, 
+#email, 
+#number, 
+#village, 
+#picture{
     margin: 10px 0 0 0;
     width: 100%;
     min-height: 2em;
     border-radius: 0.25rem}
 
-fieldset div label input{
-    width: 5%;
+input{
+    width: 20px;
     min-height: 1em;}
 
 select {
